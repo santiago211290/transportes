@@ -1,0 +1,47 @@
+<div class="row" >    
+    <div class="col-3">
+        <button class="container" (click)="aire=!aire">AIRE</button>
+        <ol class="aire" *ngIf="aire">
+            <li type="square"><button value="avion" (click)="avion=!avion" >Avion</button>
+                <img class="avion" *ngIf="avion" src="./assets/avion.jpg" alt=""></li>
+            <li type="square"><button value="cohete" (click)="cohete=!cohete">Cohete</button>
+                <img class="cohete" *ngIf="cohete" src="./assets/cohete.jpg" alt=""></li>
+            <li type="square"><button value="globo" (click)="globo=!globo">Globo</button>
+                <img class="globo" *ngIf="globo" src="./assets/globo.jpg" alt=""></li>
+            <li type="square"><button value="helicoptero" (click)="helicoptero=!helicoptero">Helicoptero</button>
+                <img class="helicoptero" *ngIf="helicoptero" src="./assets/helicoptero.jpg" alt=""></li>
+            <li type="square"><button value="parapente" (click)="parapente=!parapente">Parapente</button>
+                <img class="parapente" *ngIf="parapente" src="./assets/parapente.jpg" alt=""></li>
+        </ol>
+    </div>
+    <div class="col-3">
+         <button class="container" (click)="tierra=!tierra">TIERRA</button>
+         <ol class="tierra" *ngIf="tierra">
+            <li type="square"><button value="autobus" (click)="autobus=!autobus">Autobus</button>
+                <img class="autobus" *ngIf="autobus" src="./assets/autobus.jpg" alt=""></li>
+            <li type="square"><button value="bicicleta" (click)="bicicleta=!bicicleta">Bicicleta</button>
+                <img class="bicicleta" *ngIf="bicicleta" src="./assets/bicicleta.jpg" alt=""></li>
+            <li type="square"><button value="carro" (click)="carro=!carro">Carro</button>
+                <img class="carro" *ngIf="carro" src="./assets/carro.jpg" alt=""></li>
+            <li type="square"><button value="moto" (click)="moto=!moto">Moto</button>
+                <img class="moto" *ngIf="moto" src="./assets/moto.jpg" alt=""></li>
+            <li type="square"><button value="tren" (click)="tren=!tren">Tren</button>
+                <img class="tren" *ngIf="tren" src="./assets/tren.jpg" alt=""></li>                
+         </ol>
+    </div>
+    <div class="col-3">
+        <button class="container" (click)="agua=!agua">AGUA</button>
+        <ol class="agua" *ngIf="agua">
+            <li type="square"><button value="barco" (click)="barco=!barco">Barco</button>
+                <img class="barco" *ngIf="barco" src="./assets/barco.jpg" alt=""></li>
+            <li type="square"><button value="canoa" (click)="canoa=!canoa">Canoa</button>
+                <img class="canoa" *ngIf="canoa" src="./assets/canoa.jpg" alt=""></li>
+            <li type="square"><button value="lancha" (click)="lancha=!lancha">Lancha</button>
+                <img class="lancha" *ngIf="lancha" src="./assets/lancha.jpg" alt=""></li>
+            <li type="square"><button value="motoacuatica" (click)="motoacuatica=!motoacuatica">Moto acuatica</button>
+                <img class="motoacuatica" *ngIf="motoacuatica" src="./assets/motoacuatica.jpg" alt=""></li>
+            <li type="square"><button value="submarino" (click)="submarino=!submarino">Submarino</button>
+                <img class="submarino" *ngIf="submarino" src="./assets/submarino.jpg" alt=""></li>
+        </ol>
+    </div>    
+</div>
